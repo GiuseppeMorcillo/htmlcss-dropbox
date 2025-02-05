@@ -1,7 +1,35 @@
 /*reset*/
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+  font-family: "Open Sans", serif;
+
+}
+
 /*Common*/
+ul {
+    list-style-type: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/*Header*/
+header {
+    background-color: aqua;
+}
+
+header .container-header {
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+header .logo-menu,
+header .menu ul {
+    gap: 40px
+}
