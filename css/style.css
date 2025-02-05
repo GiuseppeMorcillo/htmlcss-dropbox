@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: "Open Sans", serif;
-
+    font-family: "Open Sans", serif;
+    font-size: 15px;
 }
 
 /*Common*/
@@ -19,17 +19,73 @@ ul {
     display: flex;
 }
 
+a {
+    color: black;
+}
+
 /*Header*/
 header {
-    background-color: aqua;
+    position: relative;
 }
 
-header .container-header {
+
+.container {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    padding: 30px 20px;
 }
 
-header .logo-menu,
-header .menu ul {
-    gap: 40px
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo,
+.nav-buttons {
+    padding: 20px 15px;
+}
+
+.logo img {
+    width: 130px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.3s ease;
+    padding: 21px 0;
+}
+
+.nav-links a:hover {
+    border-bottom: 4px solid #000000;
+}
+
+.nav-buttons {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+}
+header .start {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 15px;
 }
