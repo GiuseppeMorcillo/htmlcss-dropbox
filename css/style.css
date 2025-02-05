@@ -318,3 +318,20 @@ main .container-card {
 .bot-operation-card p{
     padding: 40px 0px;
 }
+/*Last text*/
+.last-text{
+    width: 600px;
+    font-size: 25px;
+}
+.last-text h2{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.last-text p{
+    font-size: 15px;
+    padding-bottom: 185px;
+}
+.last-text a{
+    text-decoration: underline;
+    color:#0061ff;
+}
