@@ -57,6 +57,11 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #ffffff;
+  
 }
 
 .logo,
@@ -104,8 +109,9 @@ header {
 
 /*Main*/
 main .container-jumbotron {
-
     background-color: #b4d0e6;
+    padding-top: 120px;
+    margin-top:50px
 }
 
 .text {
@@ -329,9 +335,28 @@ main .container-card {
 }
 .last-text p{
     font-size: 15px;
-    padding-bottom: 185px;
 }
 .last-text a{
     text-decoration: underline;
     color:#0061ff;
+}
+/*Footer*/
+footer{
+    background-color: #000000;
+}
+footer .jumbotron{
+    display: flex;
+    color: #ffffff;
+    background-color: #000000;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+footer .jumbotron h2{
+    font-size: 20px;
+}
+footer .jumbotron ul{
+    padding-top:25px;
+}
+footer .jumbotron li{
+    padding-top:20px;
 }
