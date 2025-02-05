@@ -23,6 +23,10 @@ a {
     color: black;
 }
 
+img {
+    display: block;
+}
+
 .btn {
     background-color: #0061ff;
     color: #fff;
@@ -90,20 +94,24 @@ header {
 }
 
 /*Main*/
-main {
+main .container-jumbotron {
+
     background-color: #b4d0e6;
 }
 
-main .container-jumbotron {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.text{
+.text {
     flex-direction: column;
 }
+
 .info {
     padding-top: 80px;
     font-size: 20px;
+}
+
+.jumbotron {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #b4d0e6;
 }
 
 .jumbotron h1 {
@@ -113,8 +121,95 @@ main .container-jumbotron {
 .jumbo-img img {
     max-width: 800px;
 }
-main .btn{
+
+main .btn {
     width: fit-content;
     margin: 30px 0px;
     padding: 15px;
+}
+
+.arrow {
+    margin-top: auto;
+    padding: 25px 0;
+    font-size: 50px;
+}
+
+/*Container-Business*/
+main .container-pianibusiness {
+    max-width: 1000px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+.container-scelte {
+    gap: 55px
+}
+
+.scelte {
+    margin-top: 60px;
+    gap: 5px;
+}
+
+main .cerchio {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border: 8px solid blue;
+    border-radius: 50%;
+}
+
+main .cerchio-off {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+
+main .container-card {
+    padding: 60px 0;
+    ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 0px;
+    gap: 50px;
+}
+
+.col {
+    width: calc(100% / 3 - 100px / 3);
+    flex-shrink: 0;
+}
+
+.col h1 {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.bottom-card {
+    border: 1px solid gray;
+    padding: 0 30px;
+}
+
+.pacchetto {
+    margin-top: 40px;
+}
+
+.pacchetto>p {
+    padding-top: 15px
+}
+
+.descrizione {
+    margin-top: 60px;
+}
+
+.descrizione>p {
+    padding-top: 30px
 }
