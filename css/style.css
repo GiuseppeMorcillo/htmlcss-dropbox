@@ -281,3 +281,24 @@ main .container-card {
     font-weight: normal;
     font-size: 15px;
 }
+/*Partner*/
+.partner{
+    display: flex;
+    padding-top:200px;
+    gap: 55px;
+}
+.partner img{
+    max-width: 600px;
+}
+.partner-text{
+    padding:50px 0px;
+}
+.partner-text h2,
+.partner-text p{
+    padding: 10px 0px;
+}
+.partner-text .btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
