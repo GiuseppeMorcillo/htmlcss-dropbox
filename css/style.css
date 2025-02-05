@@ -23,13 +23,18 @@ a {
     color: black;
 }
 
+.btn {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 15px;
+}
+
 /*Header*/
 header {
     position: relative;
 }
 
-
-.container {
+.container-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -64,7 +69,6 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    border-bottom: 4px solid transparent;
     transition: border-color 0.3s ease;
     padding: 21px 0;
 }
@@ -84,8 +88,33 @@ header {
 .nav-buttons a {
     text-decoration: none;
 }
-header .start {
-    background-color: #0061ff;
-    color: #fff;
-    padding: 5px 15px;
+
+/*Main*/
+main {
+    background-color: #b4d0e6;
+}
+
+main .container-jumbotron {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text{
+    flex-direction: column;
+}
+.info {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.jumbotron h1 {
+    font-size: 80px;
+}
+
+.jumbo-img img {
+    max-width: 800px;
+}
+main .btn{
+    width: fit-content;
+    margin: 30px 0px;
+    padding: 15px;
 }
