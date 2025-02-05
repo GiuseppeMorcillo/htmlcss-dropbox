@@ -302,3 +302,19 @@ main .container-card {
     color: #000000;
     border: 1px solid #000000;
 }
+/*Operation*/
+.operation{
+    padding-top: 165px;
+}
+.operation h2{
+    font-size: 35px;
+}
+.operation .top-operation-card img{
+    max-width: 100%;
+}
+.operation .col h2{
+    font-size:18px
+}
+.bot-operation-card p{
+    padding: 40px 0px;
+}
