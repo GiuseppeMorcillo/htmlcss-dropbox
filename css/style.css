@@ -189,7 +189,7 @@ main .container-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 100px 0px;
+    margin: 100px 0px 0px 0px;
     gap: 50px;
 }
 
@@ -199,12 +199,19 @@ main .container-card {
     flex-direction: column;
 }
 
-.top-card p{
+.top-card p
+{
     text-align: center;
     border: 1px solid gray;
     padding: 15px 0px;
 }
+.team .border{
+    text-align: center;
+    padding: 15px 0px;
 
+    border-bottom: 1px solid gray;
+
+}
 .bottom-card {
     border: 1px solid gray;
     padding: 0 30px;
@@ -246,4 +253,31 @@ main .container-card {
 }
 .bottom-card .info-piano ul li{
     padding-top: 30px;
+}
+.team{
+    border: 1px solid gray;
+
+}
+.team .info-team{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+}
+.title-team p{
+    font-weight: bold;
+    font-size: 15px;
+}
+.info-team .btn{
+    width: fit-content;
+    padding: 15px;
+    margin: 0px;
+    align-self: flex-start;
+    flex-shrink: 0;
+}
+.info-title{
+    padding-top: 60px;
+}
+.info-title p{
+    font-weight: normal;
+    font-size: 15px;
 }
