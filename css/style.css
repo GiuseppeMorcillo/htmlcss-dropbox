@@ -23,9 +23,11 @@ a {
     color: black;
     text-decoration: none;
 }
-i{
+
+i {
     padding: 0px 5px;
 }
+
 img {
     display: block;
 }
@@ -35,13 +37,16 @@ img {
     color: #fff;
     padding: 5px 15px;
 }
-.info-piano i{
+
+.info-piano i {
     color: #0061ff;
 }
+
 .info-piano li,
-.descrizione p{
+.descrizione p {
     display: flex;
 }
+
 /*Header*/
 header {
     position: relative;
@@ -58,10 +63,11 @@ header {
     align-items: center;
     width: 100%;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     background-color: #ffffff;
-  
+    z-index: 99;
+
 }
 
 .logo,
@@ -110,8 +116,7 @@ header {
 /*Main*/
 main .container-jumbotron {
     background-color: #b4d0e6;
-    padding-top: 120px;
-    margin-top:50px
+    padding-top: 90px;
 }
 
 .text {
@@ -124,9 +129,10 @@ main .container-jumbotron {
 }
 
 .jumbotron {
+    position: relative;
+    top: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #b4d0e6;
 }
 
 .jumbotron h1 {
@@ -205,19 +211,20 @@ main .container-card {
     flex-direction: column;
 }
 
-.top-card p
-{
+.top-card p {
     text-align: center;
     border: 1px solid gray;
     padding: 15px 0px;
 }
-.team .border{
+
+.team .border {
     text-align: center;
     padding: 15px 0px;
 
     border-bottom: 1px solid gray;
 
 }
+
 .bottom-card {
     border: 1px solid gray;
     padding: 0 30px;
@@ -240,123 +247,162 @@ main .container-card {
 .descrizione>p {
     padding-top: 30px
 }
-.pacchetto .title{
+
+.pacchetto .title {
     font-weight: bold;
     font-size: 27px;
 }
-.pacchetto .price{
+
+.pacchetto .price {
     font-weight: bold;
 }
-.pacchetto .days{
+
+.pacchetto .days {
     color: gray;
 }
-.bottom-card a{
+
+.bottom-card a {
     color: #0061ff;
     text-decoration: underline;
 }
-.bottom-card .info-piano{
+
+.bottom-card .info-piano {
     padding: 100px 0px;
 }
-.bottom-card .info-piano ul li{
+
+.bottom-card .info-piano ul li {
     padding-top: 30px;
 }
-.team{
+
+.team {
     border: 1px solid gray;
 
 }
-.team .info-team{
+
+.team .info-team {
     justify-content: space-between;
     align-items: center;
     padding: 40px 30px;
 }
-.title-team p{
+
+.title-team p {
     font-weight: bold;
     font-size: 15px;
 }
-.info-team .btn{
+
+.info-team .btn {
     width: fit-content;
     padding: 15px;
     margin: 0px;
     align-self: flex-start;
     flex-shrink: 0;
 }
-.info-title{
+
+.info-title {
     padding-top: 60px;
 }
-.info-title p{
+
+.info-title p {
     font-weight: normal;
     font-size: 15px;
 }
+
 /*Partner*/
-.partner{
+.partner {
     display: flex;
-    padding-top:200px;
+    padding-top: 200px;
     gap: 55px;
 }
-.partner img{
+
+.partner img {
     max-width: 600px;
 }
-.partner-text{
-    padding:50px 0px;
+
+.partner-text {
+    padding: 50px 0px;
 }
+
 .partner-text h2,
-.partner-text p{
+.partner-text p {
     padding: 10px 0px;
 }
-.partner-text .btn{
+
+.partner-text .btn {
     background-color: #ffffff;
     color: #000000;
     border: 1px solid #000000;
 }
+
 /*Operation*/
-.operation{
+.operation {
     padding-top: 165px;
 }
-.operation h2{
+
+.operation h2 {
     font-size: 35px;
 }
-.operation .top-operation-card img{
+
+.operation .top-operation-card img {
     max-width: 100%;
 }
-.operation .col h2{
-    font-size:18px
+
+.operation .col h2 {
+    font-size: 18px
 }
-.bot-operation-card p{
+
+.bot-operation-card p {
     padding: 40px 0px;
 }
+
 /*Last text*/
-.last-text{
+.last-text {
     width: 600px;
     font-size: 25px;
 }
-.last-text h2{
+
+.last-text h2 {
     padding-top: 120px;
     padding-bottom: 80px;
 }
-.last-text p{
+
+.last-text p {
     font-size: 15px;
 }
-.last-text a{
+
+.last-text a {
     text-decoration: underline;
-    color:#0061ff;
+    color: #0061ff;
 }
+
 /*Footer*/
-footer{
+footer {
     background-color: #000000;
 }
-footer .jumbotron{
+
+footer .jumbotron {
     display: flex;
     color: #ffffff;
     background-color: #000000;
     justify-content: space-around;
     padding: 100px 0px;
 }
-footer .jumbotron h2{
+
+footer .jumbotron h2 {
     font-size: 20px;
 }
-footer .jumbotron ul{
-    padding-top:25px;
+
+footer .jumbotron ul {
+    padding-top: 25px;
 }
-footer .jumbotron li{
-    padding-top:20px;
+
+footer .jumbotron li {
+    padding-top: 20px;
+}
+
+.lingua {
+    color: white;
+    padding: 50px 0px 30px 40px;
+    width: 1200px;
+    margin: 0 auto;
+
 }
